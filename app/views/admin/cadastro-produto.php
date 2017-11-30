@@ -40,7 +40,7 @@
 <form action="#" method="post">
     <div class="form-group">
         <label for="produto">Produto:</label>
-        <input name="titulo" type="text" class="form-control" id="produto" aria-describedby="nome produto" placeholder="">
+        <input name="nome" type="text" class="form-control" id="produto" aria-describedby="nome produto" placeholder="">
     </div>
 
     <div class="form-group">

@@ -19,7 +19,7 @@ class CrudProdutos {
     }
 
     public function salvar(Produto $produto){
-        $sql = "INSERT INTO tb_produtos (nome, preco, categoria) VALUES ('$produto->nome', $produto->preco, '$produto->categoria')";
+        $sql = "INSERT INTO tb_produtos (nome, preco, categoria) VALUES ('$produto->nome', $produto->preco, '$produto->categoria', '$produto->quantidade')";
 
         $this->conexao->exec($sql);
     }
